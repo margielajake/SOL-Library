@@ -291,7 +291,7 @@ main img{
 }
 
 .lib-stat span{
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .lib-stat p{
@@ -322,6 +322,7 @@ main img{
 .need-help h3{
   font-weight: 400;
   font-size: var(--font-size-md);
+  color: var(--primary-color-alt);
   margin-bottom: 1.6rem;
 }
 
