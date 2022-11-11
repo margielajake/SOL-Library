@@ -11,12 +11,11 @@ const scrollHeader = () => {
    }else{
       headerElement.classList.remove('activated');
    }
-
 };
 
 window.addEventListener('scroll', scrollHeader);
 
-const menuToggleIcon =selectElement('#menu-toggle-icon')
+const menuToggleIcon = selectElement('#menu-toggle-icon')
 
 const toggleMenu = () => {
    const mobileMenu = selectElement('#menu');
