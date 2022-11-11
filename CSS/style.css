@@ -295,8 +295,8 @@ main img{
 }
 
 .lib-stat p{
-  margin: 0 1.5rem;
-  font: inherit;
+  margin: 0 1.0rem;
+  font-size: var(--font-size-sm);
   margin-bottom: 3.2rem;
 }
 
