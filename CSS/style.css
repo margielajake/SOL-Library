@@ -397,11 +397,12 @@ main img{
 
 .books-categories div button{
   font-size: var(--font-size-sm);
-  margin-top: -3.8rem;
+  margin-top: -4rem;
   font-weight: 500;
   background-color: var(--light-color);
   border-radius: 4px;
-  padding: 4px 16px;
+  padding: 4px ;
+  width: 131px;
 }
 
 /* Footer */
