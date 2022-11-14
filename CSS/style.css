@@ -32,6 +32,7 @@
 html{
   /* font-size: 10px; */
   font-size: 62.5%;
+  overflow: hidden;
 }
 
 body{
@@ -40,6 +41,7 @@ body{
  color: var(--text-dark);
  background-color:var(--light-color);
  transition: background-color .25s, color .25s ;
+ overflow: hidden;
 }
 
 ul{
@@ -63,6 +65,10 @@ button{
   border: none;
   background-color: transparent;
   outline: none;
+}
+
+button{
+  cursor: pointer;
 }
 
 i{
@@ -114,7 +120,7 @@ body.dark-theme{
 
 .list-link:hover, 
 i:hover{
-  color: --;
+  color: var(--primary-color);
 }
 
 a:focus{
