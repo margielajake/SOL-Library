@@ -13,13 +13,23 @@
  <!-- Navigation Area -->
  <header class="header" id="header">
     <nav class="navbar container">
-      <a href="#" class="logo"><img src="/Library Resources/Logo.png" alt="SOL" width="82"></a>
+      <div class="flex">
+        <a href="#" class="logo"><img src="/Library Resources/Logo.png" alt="SOL" width="82"></a>
+          <ul>
+            <li class="list-items sm-hidden">
+              <a href="about.html " class="list-link">About Us</a>
+            </li>
+            <li class="list-items sm-hidden">
+              <a href="contact.html" class="list-link">Contact Us</a>
+            </li>
+          </ul>
+      </div>
       <div class="menu" id="menu">
           <ul class="list">
-            <li class="list-items">
-              <a href="about.html" class="list-link">About Us</a>
+            <li class="list-items lg-hidden">
+              <a href="about.html " class="list-link">About Us</a>
             </li>
-            <li class="list-items">
+            <li class="list-items lg-hidden">
               <a href="contact.html" class="list-link">Contact Us</a>
             </li>
             <li class="list-items lg-hidden">
@@ -31,23 +41,31 @@
         </ul>
       </div>
       <div class="list list-right">
-          <button class="btn place-items-center" id="theme-toggle-btn">
+          <button class="btn place-items-center lg-hidden" id="theme-toggle-btn">
           <i class="ri-sun-line sun-icon"></i>
           <i class="ri-moon-line moon-icon"></i>
           </button>
-
-          <button class="btn place-items-center sm-hidden" id="search-icon-btn">
-            <i class="ri-search-line"></i>
         
-          </button>
+          
 
           <button class="btn place-items-center lg-hidden menu-toggle-icon" id="menu-toggle-icon">
             <i class="ri-menu-line open-menu-icon"></i>
             <i class="ri-close-line close-menu-icon"></i>
           </button>
 
-          <a href="#" class="list-link sm-hidden btn login-btn">Login</a>
-          <a href="#" class="list-link sm-hidden btn sign-up-btn">Signup</a>
+         <div class="flex large-menu">
+          <div class="flex">
+            <ul class="list">
+              
+          </div>
+          <div class="flex top-button">
+            <button class="btn place-items-center sm-hidden" id="search-icon-btn">
+              <i class="ri-search-line"></i>
+            </button>
+            <a href="#" class="list-link sm-hidden btn login-btn">Login</a>
+            <a href="#" class="list-link sm-hidden btn sign-up-btn">Signup</a>
+          </div>
+         </div>
         </div>
       </nav>
     </header>
@@ -55,7 +73,7 @@
  <!-- Main Area -->
 
  <main>
-  <div class="container flex">
+  <div class="container grid">
     <div class="text-content">
       <h1>Get complete access to <span>Every</span> book you need</h1>
       <p>With over <span>25,000</span> resources available with unlimited access. Need to read a book? We have it all!</p>
@@ -78,7 +96,7 @@
       <img src="/Library Resources/Background removed.png" alt="user-holding-phone">
     </div>
   </div>
-    <div class="library-info">
+    <div class="library-info flex">
       <div class="flex card">
         <svg width="110" height="110" viewBox="0 0 79 79" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
